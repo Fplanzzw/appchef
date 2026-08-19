@@ -1,0 +1,36 @@
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# ===== 环境变量（含密钥，严禁提交）=====
+.env
+.env.local
+.env.*.local
+
+# ===== 数据库（运行时数据，首次运行自动生成）=====
+*.db
+*.sqlite3
+chroma_db/
+db/
+resources/*.db
+resources/logs/
+
+# ===== 日志 =====
+*.log
+
+# ===== 前端（Next.js 源码开发产物）=====
+私厨-前端源码/node_modules/
+私厨-前端源码/.next/
+私厨-前端源码/out/
+私厨-前端源码/.env.local
+
+# ===== 图片上传目录 =====
+picture/
+
+# ===== 系统文件 =====
+.DS_Store
+Thumbs.db
