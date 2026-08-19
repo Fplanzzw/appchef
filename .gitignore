@@ -1,4 +1,4 @@
-# ===== Python =====
+﻿# ===== Python =====
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -23,13 +23,17 @@ resources/logs/
 *.log
 
 # ===== 前端（Next.js 源码开发产物）=====
-私厨-前端源码/node_modules/
-私厨-前端源码/.next/
-私厨-前端源码/out/
-私厨-前端源码/.env.local
+front/node_modules/
+front/.next/
+front/out/
+front/.env.local
+front/next-env.d.ts
 
 # ===== 图片上传目录 =====
 picture/
+
+# ===== Next.js 构建产物（不应提交）=====
+static/
 
 # ===== 系统文件 =====
 .DS_Store
